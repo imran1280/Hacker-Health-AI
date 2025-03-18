@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Futuristic Health AI</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title fade-in">🚀 Futuristic Health AI</h1>
+
+        <div class="glass-card slide-up">
+            <h2>🎂 Age Calculator</h2>
+            <input type="date" id="dob">
+            <button onclick="calculateAge()">Calculate</button>
+            <p id="ageResult"></p>
+        </div>
+
+        <div class="glass-card slide-up">
+            <h2>⚖️ BMI Calculator</h2>
+            <input type="number" id="weight" placeholder="Weight (kg)">
+            <input type="number" id="height" placeholder="Height (cm)">
+            <button onclick="calculateBMI()">Calculate</button>
+            <p id="bmiResult"></p>
+        </div>
+
+        <div class="glass-card slide-up">
+            <h2>🧠 AI Medical Advisor</h2>
+            <textarea id="userQuery" placeholder="Enter your health query..."></textarea>
+            <button onclick="getMedicalAdvice()">Get Advice</button>
+            <p id="aiResponse"></p>
+        </div>
+
+        <footer class="footer fade-in">
+            <p>🔹 Create by <span>Imran</span> 🔹</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+  </html>
